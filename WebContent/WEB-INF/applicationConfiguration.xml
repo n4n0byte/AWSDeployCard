@@ -25,7 +25,9 @@
    <bean id="dataSource" 
       class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
       <property name = "driverClassName" value = "com.mysql.jdbc.Driver"/>
-      <property name = "url" value = "jdbc:mysql://34.70.38.245:3306"/>
+      <!--<property name = "url" value = "jdbc:mysql://carddb.c2l5cxksh2pt.us-east-1.rds.amazonaws.com:3306"/>-->
+      <property name = "url" value = "jdbc:mysql://google/carddb?socketFactory=com.google.cloud.sql.mysql.SocketFactory&amp;cloudSqlInstance=testproject-268315:us-central1:carddb"/>
+      
       <property name = "username" value = "admin"/>
       <property name = "password" value = "Darkrai1997"/>
    </bean>
