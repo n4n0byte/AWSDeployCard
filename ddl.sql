@@ -3,6 +3,8 @@
 -- Model: New Model    Version: 1.0
 -- MySQL Workbench Forward Engineering
 
+create schema `carddb`;
+
 -- -----------------------------------------------------
 -- Table `carddb`.`users`
 -- -----------------------------------------------------

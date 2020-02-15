@@ -40,7 +40,7 @@ public class CredentialsBusinessService implements CredentialsBusinessServiceInt
 		
 		User usr = userDAO.findByName(user.getUsername());
 		System.out.println(usr);
-		if(usr == null) {
+		if(userDAO.findByName(user.getUsername()) == null || userDAO.findByName(user.getEmail()) == null) {
 			userDAO.add(user);
 			return true;
 		}
