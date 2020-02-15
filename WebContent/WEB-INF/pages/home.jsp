@@ -29,7 +29,7 @@
 				click : function() {
 					// go to delete link with deck id
 					var deckTitle = currentItem.find("input").attr("value");
-					window.location.href = "/Card/deleteDeck/" + deckTitle;
+					window.location.href = "/deleteDeck/" + deckTitle;
 				},
 			}, {
 				text : "Cancel",
@@ -80,15 +80,15 @@
 							<tr>
 
 								<td><label><a
-										href="/Card/displayDeck/${deck.deckId}">${deck.title}</a></label></td>
+										href="/displayDeck/${deck.deckId}">${deck.title}</a></label></td>
 								<td><label>${deck.description}</label></td>
-								<td><label><a href="/Card/newCard/${deck.title}">Add</a></label>
+								<td><label><a href="/newCard/${deck.title}">Add</a></label>
 								</td>
 								<td><label class="delete"> <input type="hidden"
 										class="name" name="x" value="${deck.title}"> <a
 										href="#">Delete</a>
 								</label></td>
-								<td><label><a href="/Card/updateDeck/${deck.title}">Update</a></label>
+								<td><label><a href="/updateDeck/${deck.title}">Update</a></label>
 								</td>
 							</tr>
 						</c:forEach>
@@ -96,7 +96,7 @@
 
 				</div>
 			</div>
-			<a href="/Card/newDeck"><button class="col-sm-12">Add a
+			<a href="/newDeck"><button class="col-sm-12">Add a
 					Deck</button></a>
 		</div>
 	</div>
