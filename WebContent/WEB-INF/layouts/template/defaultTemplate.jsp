@@ -22,12 +22,12 @@
   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
   crossorigin="anonymous"></script>
-	<link href="/Card/resources/jquery-ui.css" rel="stylesheet">	
-	<script src="/Card/resources/particles.min.js"></script>	
+	<link href="/resources/jquery-ui.css" rel="stylesheet">	
+	<script src="/resources/particles.min.js"></script>	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	
-	<link rel="stylesheet" type="text/css" href="/Card/resources/overhang.min.css" />
-	<script type="text/javascript" src="/Card/resources/overhang.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/resources/overhang.min.css" />
+	<script type="text/javascript" src="/resources/overhang.min.js"></script>
 	
 </head>
 
@@ -167,7 +167,7 @@
 	
 		
 </body>
-	<script src="/Card/resources/animations.js"></script>
+	<script src="/resources/animations.js"></script>
 
 
 </html>
