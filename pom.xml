@@ -8,16 +8,6 @@
   
     <sourceDirectory>src</sourceDirectory>
     
-     <resources>
-        <resource>
-            <directory>/WEB-INF/</directory>
-            <includes>                      
-                <include>**/*.xml</include>
-            </includes>
-        </resource>
-        
-    </resources>
-    
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
