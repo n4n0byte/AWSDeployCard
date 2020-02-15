@@ -20,7 +20,7 @@
 	</tr>
 	<tr>
 		<td colspan="2">
-			<a href="/Card/home">Home</a>
+			<a href="/home">Home</a>
 		</td>
 	</tr>
 	</table>

@@ -41,7 +41,7 @@ function confirm(){
 					<input type="submit" value="Submit"/>
 				</td>
 				<td>
-					<a href="/Card/home">Go Back</a>
+					<a href="/home">Go Back</a>
 				</td>
 			</tr>
 		</table>
