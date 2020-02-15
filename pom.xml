@@ -5,7 +5,19 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
+  
     <sourceDirectory>src</sourceDirectory>
+    
+     <resources>
+        <resource>
+            <directory>/WEB-INF/</directory>
+            <includes>                      
+                <include>**/*.xml</include>
+            </includes>
+        </resource>
+        
+    </resources>
+    
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -15,6 +27,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      
          <plugin>
    	<groupId>com.google.cloud.tools</groupId>
    	<artifactId>appengine-maven-plugin</artifactId>
