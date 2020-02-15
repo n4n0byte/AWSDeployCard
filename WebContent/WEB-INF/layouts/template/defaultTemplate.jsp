@@ -9,6 +9,9 @@
 <meta name="viewport"
 	content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<link rel="stylesheet"
+	href="https://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css">
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity=""	crossorigin="anonymous" type="text/javascript"></script>
 
 <link rel="stylesheet"
@@ -25,7 +28,7 @@
 <spring:url value="/resources/css/main.css" var="mainCss" />
 <link href="${mainCss}" rel="stylesheet" />
 
-<link rel="stylesheet" type="text/css" "href="https://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css" />
+
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"	integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous" type="text/javascript"></script>
 
 
