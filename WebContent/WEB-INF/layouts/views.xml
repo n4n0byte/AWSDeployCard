@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="register" extends="DefaultTemplate">
+    	<put-attribute name="header" value="/WEB-INF/pages/registrationHeader.jsp" />			
+    	<put-attribute name="body" value="/WEB-INF/pages/registrationForm.jsp" />
+	</definition>
+	<definition name="login" extends="DefaultTemplate">
+    	<put-attribute name="header" value="/WEB-INF/pages/loginHeader.jsp" />				
+    	<put-attribute name="body" value="/WEB-INF/pages/loginForm.jsp" />
+	</definition>
+	<definition name="home" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/home.jsp" />
+	</definition>
+	<definition name="addDeck" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/home.jsp" />
+	</definition>
+	<definition name="newCard" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/newCard.jsp" />
+	</definition>
+	<definition name="newDeck" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/newDeck.jsp" />
+	</definition>
+	<definition name="displayCards" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/displayCards.jsp" />
+	</definition>
+	<definition name="displayDeck" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/displayDeck.jsp" />
+	</definition>
+		<definition name="updateDeck" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/updateDeck.jsp" />
+	</definition>
+		<definition name="deleteDeck" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/deleteDeck.jsp" />
+	</definition>
+		<definition name="findById" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/findById.jsp" />
+	</definition>
+	<definition name="updateResponse" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/updateResponse.jsp" />
+	</definition>
+		<definition name="deleteResponse" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/deleteResponse.jsp" />
+	</definition>
+		<definition name="displayFindById" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/displayFindById.jsp" />
+	</definition>
+	<definition name="errorPage" extends="DefaultTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/errorPage.jsp" />
+	</definition>
+	
+ <!--
+  <definition name="*" extends="DefaultTemplate" >
+  	<put-attribute name="body" value="/WEB-INF/pages/{1}.jsp"/>
+  </definition>
+   --> 
+</tiles-definitions>

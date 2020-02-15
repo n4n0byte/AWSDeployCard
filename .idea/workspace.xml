@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Card:war" />
+      <artifact name="Card:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b786b41-3ab7-4429-8fef-429dd63cdfb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/pages/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/pages/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/services/implementations/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/services/implementations/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Card-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Card-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Card-0.0.1-SNAPSHOT/WEB-INF/classes/com/configuration/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Card-0.0.1-SNAPSHOT/WEB-INF/classes/com/configuration/Services.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Card-0.0.1-SNAPSHOT/WEB-INF/pages/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Card-0.0.1-SNAPSHOT/WEB-INF/pages/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/Card/Card/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/Card/Card/pom.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1741943569">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="CardDAO" value="2" />
+          <entry key="CardDAOInterface" value="1" />
+          <entry key="CredentialsBusinessServiceInterface" value="2" />
+          <entry key="DeckController" value="1" />
+          <entry key="JavaScript-modules-diagram/C:/Users/AC/git/CardsCLC/Cards/src/com/exceptions" value="1" />
+          <entry key="JavaScript-modules-diagram/C:/Users/AC/git/CardsCLC/Cards/src/com/services/implementations;C:/Users/AC/git/CardsCLC/Cards/src/com/services/interfaces;" value="1" />
+          <entry key="UserMapper" value="1" />
+          <entry key="exceptions" value="1" />
+          <entry key="java" value="9" />
+          <entry key="mappers" value="1" />
+          <entry key="models" value="1" />
+          <entry key="services" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="9" />
+          <entry key="UML" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Card" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/com.services.interfaces.CredentialsBusinessServiceInterface">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.services.interfaces.CredentialsBusinessServiceInterface</OriginalElement>
+              <nodes>
+                <node x="392.0" y="316.0">com.services.interfaces.CredentialsBusinessServiceInterface</node>
+                <node x="0.0" y="316.0">com.services.interfaces.GenericDAOInterface</node>
+                <node x="0.0" y="0.0">com.services.interfaces.DeckBusinessServiceInterface</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="286.0" />
+              <SelectedNodes>
+                <node>com.services.interfaces.CredentialsBusinessServiceInterface</node>
+                <node>com.services.interfaces.GenericDAOInterface</node>
+                <node>com.services.interfaces.DeckBusinessServiceInterface</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/exceptions/GlobalExceptionHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-295" />
+    <option name="y" value="-65" />
+    <option name="width" value="3235" />
+    <option name="height" value="1835" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541533986797" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Card:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="Card:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Card" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Card" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53330" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Card:war exploded" />
+          <artifact name="Card:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b786b41-3ab7-4429-8fef-429dd63cdfb7" name="Default Changelist" comment="" />
+      <created>1540573453029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540573453029</updated>
+      <workItem from="1540573454307" duration="1375000" />
+      <workItem from="1541467300050" duration="1207000" />
+      <workItem from="1541929911020" duration="88000" />
+      <workItem from="1541941145109" duration="8000" />
+      <workItem from="1541979378799" duration="136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2814000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4923313" visible="true" weight="0.26639676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50121653" side_tool="true" weight="0.24939272" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="EJB" order="7" sideWeight="0.50121653" side_tool="true" weight="0.24939272" />
+      <window_info id="JavaEE:App" order="8" side_tool="true" />
+      <window_info id="Web" order="9" sideWeight="0.50766873" side_tool="true" visible="true" weight="0.26639676" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39052287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/controllers/Calculate.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.controllers.DeckController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.controllers.DeckController</OriginalElement>
+          <nodes>
+            <node x="812.0" y="156.0">com.controllers.HomeController</node>
+            <node x="1289.0" y="101.0">com.controllers.DeckController</node>
+            <node x="740.5" y="0.0">org.springframework.stereotype.Controller</node>
+            <node x="363.0" y="167.0">com.controllers.LoginController</node>
+            <node x="0.0" y="167.0">com.controllers.RegistrationController</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.controllers.DeckController" target="org.springframework.stereotype.Controller">
+              <point x="0.0" y="-114.0" />
+              <point x="1536.5" y="71.0" />
+              <point x="860.375" y="71.0" />
+              <point x="51.375" y="25.5" />
+            </edge>
+            <edge source="com.controllers.RegistrationController" target="org.springframework.stereotype.Controller">
+              <point x="0.0" y="-48.0" />
+              <point x="171.5" y="71.0" />
+              <point x="757.625" y="71.0" />
+              <point x="-51.375" y="25.5" />
+            </edge>
+            <edge source="com.controllers.LoginController" target="org.springframework.stereotype.Controller">
+              <point x="0.0" y="-48.0" />
+              <point x="577.5" y="81.0" />
+              <point x="791.875" y="81.0" />
+              <point x="-17.125" y="25.5" />
+            </edge>
+            <edge source="com.controllers.HomeController" target="org.springframework.stereotype.Controller">
+              <point x="0.0" y="-59.0" />
+              <point x="1040.5" y="81.0" />
+              <point x="826.125" y="81.0" />
+              <point x="17.125" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="681.0" y="70.0" />
+          <SelectedNodes>
+            <node>com.controllers.HomeController</node>
+            <node>com.controllers.DeckController</node>
+            <node>org.springframework.stereotype.Controller</node>
+            <node>com.controllers.LoginController</node>
+            <node>com.controllers.RegistrationController</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/exceptions/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/AC/git/CardsCLC/Cards/src/com/exceptions">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/com/exceptions</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="461.0" y="293.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.exceptions">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.exceptions</OriginalElement>
+          <nodes>
+            <node x="0.0" y="124.0">com.exceptions.GlobalExceptionHandler</node>
+            <node x="54.0" y="0.0">com.exceptions.DAOException</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.exceptions.GlobalExceptionHandler" target="com.exceptions.DAOException">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="88.0" y="52.0" />
+          <SelectedNodes>
+            <node>com.exceptions.GlobalExceptionHandler</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.mappers">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.mappers</OriginalElement>
+          <nodes>
+            <node x="" y="">com.mappers.UserMapper</node>
+            <node x="" y="">com.mappers.DeckMapper</node>
+            <node x="" y="">com.mappers.CardMapper</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="89.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.mappers.UserMapper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.mappers.UserMapper</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="17.5" y="158.0">com.mappers.UserMapper</node>
+            <node x="18.0" y="79.0">org.springframework.jdbc.core.RowMapper</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.jdbc.core.RowMapper" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.mappers.UserMapper" target="org.springframework.jdbc.core.RowMapper">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="94.0" />
+          <SelectedNodes>
+            <node>com.mappers.UserMapper</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.models">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.models</OriginalElement>
+          <nodes>
+            <node x="475.0" y="0.0">com.models.User</node>
+            <node x="259.0" y="256.0">com.models.Deck</node>
+            <node x="125.0" y="0.0">com.models.Card</node>
+            <node x="0.0" y="300.5">com.models.CardWithDeckTitle</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.models.Deck" target="com.models.Card">
+              <point x="-42.75" y="-103.5" />
+              <point x="301.75" y="231.0" />
+              <point x="269.375" y="231.0" />
+              <point x="28.875" y="103.0" />
+            </edge>
+            <edge source="com.models.CardWithDeckTitle" target="com.models.Card">
+              <point x="-59.75" y="-59.0" />
+              <point x="59.75" y="231.0" />
+              <point x="153.875" y="231.0" />
+              <point x="-86.625" y="103.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="350.0" y="204.0" />
+          <SelectedNodes>
+            <node>com.models.User</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/AC/git/CardsCLC/Cards/src/com/services/implementations;C:/Users/AC/git/CardsCLC/Cards/src/com/services/interfaces;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/com/services/implementations;C:/Users/AC/git/CardsCLC/Cards/src/com/services/interfaces;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="461.0" y="293.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.services.interfaces.CardDAOInterface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.services.interfaces.CardDAOInterface</OriginalElement>
+          <nodes>
+            <node x="367.0" y="329.0">com.services.interfaces.CredentialsBusinessServiceInterface</node>
+            <node x="268.5" y="0.0">com.services.interfaces.GenericDAOInterface</node>
+            <node x="0.0" y="189.0">com.services.interfaces.DeckDAOInterface</node>
+            <node x="285.0" y="211.0">com.services.interfaces.CardDAOInterface</node>
+            <node x="556.0" y="211.0">com.services.interfaces.UserDAOInterface</node>
+            <node x="0.0" y="329.0">com.services.interfaces.DeckBusinessServiceInterface</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.services.interfaces.CardDAOInterface" target="com.services.interfaces.GenericDAOInterface">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="com.services.interfaces.DeckDAOInterface" target="com.services.interfaces.GenericDAOInterface">
+              <point x="0.0" y="-47.5" />
+              <point x="132.5" y="164.0" />
+              <point x="315.8333333333333" y="164.0" />
+              <point x="-94.66666666666669" y="69.5" />
+            </edge>
+            <edge source="com.services.interfaces.UserDAOInterface" target="com.services.interfaces.GenericDAOInterface">
+              <point x="0.0" y="-25.5" />
+              <point x="666.5" y="164.0" />
+              <point x="505.1666666666667" y="164.0" />
+              <point x="94.66666666666669" y="69.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="350.0" y="341.0" />
+          <SelectedNodes>
+            <node>com.services.interfaces.CardDAOInterface</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/configuration/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controllers/DeckController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.services">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.services</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">com.services.implementations</node>
+            <node x="19.5" y="0.0">com.services.interfaces</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.services.implementations" target="com.services.interfaces">
+              <point x="-56.0" y="-14.5" />
+              <point x="28.0" y="54.0" />
+              <point x="41.0" y="54.0" />
+              <point x="-43.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="54.0" />
+          <SelectedNodes>
+            <node>com.services.interfaces</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.services.implementations.CardDAO">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.services.implementations.CardDAO</OriginalElement>
+          <nodes>
+            <node x="0.0" y="153.0">com.services.interfaces.CredentialsBusinessServiceInterface</node>
+            <node x="23.0" y="385.0">com.services.implementations.DeckBusinessService</node>
+            <node x="87.0" y="0.0">com.services.interfaces.GenericDAOInterface</node>
+            <node x="0.0" y="79.0">com.services.implementations.UserDAO</node>
+            <node x="0.0" y="306.0">com.services.interfaces.DeckBusinessServiceInterface</node>
+            <node x="23.0" y="232.0">com.services.implementations.CredentialsBusinessService</node>
+            <node x="117.0" y="79.0">com.services.implementations.DeckDAO</node>
+            <node x="236.0" y="79.0">com.services.implementations.CardDAO</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.services.implementations.DeckDAO" target="com.services.interfaces.GenericDAOInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.services.implementations.DeckBusinessService" target="com.services.interfaces.DeckBusinessServiceInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.services.implementations.CardDAO" target="com.services.interfaces.GenericDAOInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="285.0" y="54.0" />
+              <point x="219.5" y="54.0" />
+              <point x="53.0" y="14.5" />
+            </edge>
+            <edge source="com.services.implementations.UserDAO" target="com.services.interfaces.GenericDAOInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="48.5" y="54.0" />
+              <point x="113.5" y="54.0" />
+              <point x="-53.0" y="14.5" />
+            </edge>
+            <edge source="com.services.implementations.CredentialsBusinessService" target="com.services.interfaces.CredentialsBusinessServiceInterface">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="167.0" y="207.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.services.interfaces.CredentialsBusinessServiceInterface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.services.interfaces.CredentialsBusinessServiceInterface</OriginalElement>
+          <nodes>
+            <node x="392.0" y="316.0">com.services.interfaces.CredentialsBusinessServiceInterface</node>
+            <node x="0.0" y="316.0">com.services.interfaces.GenericDAOInterface</node>
+            <node x="0.0" y="0.0">com.services.interfaces.DeckBusinessServiceInterface</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="286.0" />
+          <SelectedNodes>
+            <node>com.services.interfaces.CredentialsBusinessServiceInterface</node>
+            <node>com.services.interfaces.GenericDAOInterface</node>
+            <node>com.services.interfaces.DeckBusinessServiceInterface</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
