@@ -16,8 +16,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<spring:url value="/resources/css/main.css" var="mainCss" />
 	<link href="${mainCss}" rel="stylesheet" />
-	<script type="text/javascript" src="/Card/resources/external/jquery/jquery.js"></script>
-	<script type="text/javascript" src="/Card/resources/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>	
+   <script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
 	<link href="/Card/resources/jquery-ui.css" rel="stylesheet">	
 	<script src="/Card/resources/particles.min.js"></script>	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
