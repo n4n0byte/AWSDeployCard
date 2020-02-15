@@ -16,7 +16,16 @@ public class GlobalExceptionHandler {
 	public ModelAndView dataAccessObjectError(final Exception e) {
 
 		ModelAndView mv = new ModelAndView("errorPage");
-		mv.addObject("message", e.getMessage());
+		mv.addObject("message", 
+					e.getMessage() 
+					+ "<br>" 
+					+ "<br>" 
+					+ e.getLocalizedMessage()
+					+ "<br>" 
+					+ "<br>" 
+					+ e.getCause().getMessage()
+				);
+		e.printStackTrace();
 		mv.addObject("errorCode", Integer.valueOf(500));
 
 		return mv;
