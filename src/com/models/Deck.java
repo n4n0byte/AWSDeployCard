@@ -1,5 +1,6 @@
 package com.models;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,8 +15,13 @@ import org.hibernate.validator.constraints.NotEmpty;
  * @author Ali Cooper
  *
  */
-public class Deck {
+public class Deck implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5760465777109170759L;
+
 	@NotBlank
 	@NotEmpty
 	@NotNull
