@@ -27,7 +27,10 @@
 
 
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"	integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous" type="text/javascript"></script>
-<link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" "href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" />
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js" type="text/javascript"></script>
 <link href="https://fonts.googleapis.com/css?family=Montserrat"
 	rel="stylesheet">
