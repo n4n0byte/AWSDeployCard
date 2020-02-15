@@ -9,7 +9,7 @@
 <meta name="viewport"
 	content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="	crossorigin="anonymous" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity=""	crossorigin="anonymous" type="text/javascript"></script>
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
