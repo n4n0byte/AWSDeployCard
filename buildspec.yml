@@ -12,4 +12,3 @@ artifacts:
   files:
     - Card.war
     - .ebextensions/**/*
-  base-directory: '/Card-0.0.1-SNAPSHOT.war'
