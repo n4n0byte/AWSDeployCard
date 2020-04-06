@@ -7,9 +7,9 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/Card.war Card.war
+      - mv target/Card-0.0.1-SNAPSHOT.war Card-0.0.1-SNAPSHOT.war
 artifacts:
   files:
     - Card.war
     - .ebextensions/**/*
-  base-directory: '/Card'
+  base-directory: '/Card-0.0.1-SNAPSHOT.war'
