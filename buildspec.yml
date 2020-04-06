@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  post_build:
+    commands:
+      - mvn package
+      - mv target/Card.war Card.war
+artifacts:
+  files:
+    - Card.war
+    - .ebextensions/**/*
+  base-directory: 'target/Card'
