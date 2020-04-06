@@ -10,5 +10,5 @@ phases:
       - mv target/Card-0.0.1-SNAPSHOT.war Card-0.0.1-SNAPSHOT.war
 artifacts:
   files:
-    - Card.war
+    - Card-0.0.1-SNAPSHOT.war
     - .ebextensions/**/*
