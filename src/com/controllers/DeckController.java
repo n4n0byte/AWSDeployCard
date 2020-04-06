@@ -2,6 +2,11 @@ package com.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.ext.XLogger;
+import org.slf4j.ext.XLoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -16,9 +21,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.models.CardWithDeckTitle;
 import com.models.Deck;
 import com.models.User;
-import com.services.implementations.DeckBusinessService;
 import com.services.interfaces.DeckBusinessServiceInterface;
-import com.services.interfaces.GenericDAOInterface;
 
 /**
  * 
@@ -31,13 +34,17 @@ public class DeckController {
 
 	DeckBusinessServiceInterface deckSvc;
 	
+	private XLogger logger = XLoggerFactory.getXLogger(DeckController.class);
+	
 	/**
 	 * inject deck business service
 	 * @param iDeckBusinessService
 	 */
 	@Autowired
 	public void setIDeckBusinessService(DeckBusinessServiceInterface iDeckBusinessService) {
+		logger.entry();
 		deckSvc = iDeckBusinessService;
+		logger.exit();
 	}
 	
 	/**
@@ -51,9 +58,11 @@ public class DeckController {
 	 */
 	@PostMapping("newDeck")
 	public String newDeck(@Valid @ModelAttribute("deck")Deck deck,ModelMap modelMap, BindingResult result, HttpServletRequest sess) {
-		
+		logger.entry();
+
 		// validation 
 		if (result.hasErrors()) {
+			logger.warn("validation errors: "+result.getErrorCount());
 			modelMap.put("message", "Validation Error");
 			return "newDeck";
 		}
@@ -63,11 +72,12 @@ public class DeckController {
 		User user = (User) sess.getSession().getAttribute("user");
 		deck.setUserId(user.getId());
 		deckSvc.addDeck(deck);
+		logger.exit();
 		return "redirect:/home";
 	}
 	
 	/**
-	 * 
+	 * Displays the deck view
 	 * @param deckId
 	 * @param modelMap
 	 * @param attrs
@@ -76,7 +86,9 @@ public class DeckController {
 	 */
 	@GetMapping("displayDeck/{deckId}")
 	public String displayDeck(@PathVariable("deckId") int deckId,ModelMap modelMap, RedirectAttributes attrs, HttpServletRequest sess) {
-				
+		logger.entry();
+		logger.info("entering DeckController.displayDeck" + "|deckId: " + deckId);
+
 		Deck deck = deckSvc.findDeckByDeckId(deckId);
 		System.out.println(deck);
 		
@@ -88,12 +100,12 @@ public class DeckController {
 		
 	
 		modelMap.put("deck", deck);
-		
+		logger.exit();
 		return "displayDeck";
 	}	
 	
 	/**
-	 * 
+	 * adds a card
 	 * @param cardWithDeckTitle
 	 * @param modelMap
 	 * @param result
@@ -101,24 +113,25 @@ public class DeckController {
 	 */
 	@PostMapping("addCard")
 	public String addCard(@ModelAttribute("cardWithDeckTitle")CardWithDeckTitle cardWithDeckTitle, ModelMap modelMap, BindingResult result) {
-		
-		System.out.println("IN ADD CARD POST: " + cardWithDeckTitle);
+		logger.entry();
+		logger.info("entering DeckController.addCard" + "|cardWithDeckTitle: " + cardWithDeckTitle);
 		
 		//validate only title and description
 		if (result.hasErrors()) {
+			logger.warn("validation errors: "+result.getErrorCount());
 			modelMap.put("message", "Validation Error");
 			return "newCard";
 		}
 		
 		modelMap.put("message", "Successfully Added Card");
 		deckSvc.addCardToDeckWithDeckTitle(cardWithDeckTitle.getCard(), cardWithDeckTitle.getDeckTitle());
-		
+		logger.exit();
 		return "redirect:/home";
 		
 	}	
 	
 	/**
-	 * 
+	 * show update view
 	 * @param deck
 	 * @param modelMap
 	 * @param result
@@ -127,8 +140,9 @@ public class DeckController {
 	 */
 	@GetMapping("updateDeck/{deckTitle}")
 	public ModelAndView updateDeck(@ModelAttribute("Deck")Deck deck, ModelMap modelMap, BindingResult result, RedirectAttributes attrs) {
-		
-		
+		logger.entry();
+		logger.info(deck.toString());
+		logger.exit();
 		return new ModelAndView("updateDeck","Deck",new Deck());
 		
 	}
@@ -143,18 +157,22 @@ public class DeckController {
 	 */
 	@PostMapping("updateResponse")
 	public String updateResponse(@ModelAttribute("Deck")Deck deck, ModelMap modelMap, BindingResult result, HttpServletRequest req) {
-		
+		logger.entry();
 		//validate only title and description
 		if (result.hasErrors()) {
+			logger.warn("validation errors: "+result.getErrorCount());
+			logger.warn("error deck: " + deck);
 			modelMap.put("message", "Validation Error");
 			return "updateResponse.jsp";
 		}
 		
 		modelMap.put("message", "Successfully updated Deck");
 		System.out.println("DECKDECKDECK " + deck);
-			User usr = (User) req.getSession().getAttribute("user");
+		User usr = (User) req.getSession().getAttribute("user");
+		logger.info(usr.toString());
 		deck.setUserId(usr.getId());
 		deckSvc.updateDeck(deck);
+		logger.exit();
 		return "redirect:/home";
 		
 	}	
@@ -167,7 +185,9 @@ public class DeckController {
 	 */
 	@GetMapping("deleteDeck/{deckTitle}")
 	public String deleteDeck(@PathVariable("deckTitle") String title, ModelMap modelMap) {
+		logger.entry();
 		deckSvc.deleteDeckByTitle(title);
+		logger.exit();
 		return "redirect:/home";
 		
 	}
@@ -181,15 +201,17 @@ public class DeckController {
 	 */
 	@PostMapping("displayfindById")
 	public String displayfindById(@ModelAttribute("Deck")Deck deck, ModelMap modelMap, BindingResult result) {
-		
+		logger.entry();
 		//validate only title and description
 		if (result.hasErrors()) {
+			logger.info("Validation errors " + result.getErrorCount());
 			modelMap.put("message", "Validation Error");
 			return "displayFindByid.jsp";
 		}
 		
 		modelMap.put("message", "Successfully updated Deck");
 		deckSvc.updateDeck(deck);
+		logger.exit();
 		return "redirect:/home";
 		
 	}	

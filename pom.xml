@@ -38,38 +38,43 @@
   <!-- Dependencies -->
   <dependencies>
   
-  <dependency>
-   	<groupId>com.google.cloud.sql</groupId>
-   	<artifactId>mysql-socket-factory</artifactId>
-   	<version>1.0.5</version>
-   </dependency>
-  
-  
+	<dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-api</artifactId>
+    	<version>1.7.30</version>
+    </dependency>
+
+  	<dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.7.12</version>
+    </dependency>
+
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-context</artifactId>
-  		<version>5.0.9.RELEASE</version>
+  		<version>5.2.3.RELEASE</version>
   	</dependency>
   	
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-aop</artifactId>
-  		<version>5.0.9.RELEASE</version>
+  		<version>5.2.3.RELEASE</version>
   	</dependency>
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-web</artifactId>
-  		<version>5.0.9.RELEASE</version>
+  		<version>5.2.3.RELEASE</version>
   	</dependency>
  	<dependency>
     		<groupId>org.springframework</groupId>
     		<artifactId>spring-webmvc</artifactId>
-    		<version>5.0.9.RELEASE</version>
+    		<version>5.2.3.RELEASE</version>
 	</dependency>
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-jdbc</artifactId>
-  		<version>5.0.9.RELEASE</version>
+  		<version>5.2.3.RELEASE</version>
   	</dependency>
   	<dependency>
   		<groupId>org.aspectj</groupId>
@@ -89,7 +94,7 @@
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-context-support</artifactId>
-  		<version>5.0.9.RELEASE</version>
+  		<version>5.2.3.RELEASE</version>
   	</dependency>
   	
   	<dependency>
@@ -124,32 +129,26 @@
   		<artifactId>slf4j-api</artifactId>
   		<version>1.7.5</version>
   	</dependency>
-  	<dependency>
-  		<groupId>org.springframework.security</groupId>
-  		<artifactId>spring-security-config</artifactId>
-  		<version>3.2.6.RELEASE</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.springframework.security</groupId>
-  		<artifactId>spring-security-core</artifactId>
-  		<version>3.2.6.RELEASE</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.springframework.security</groupId>
-  		<artifactId>spring-security-web</artifactId>
-  		<version>3.2.6.RELEASE</version>
-  	</dependency>
+  	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-ext -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-ext</artifactId>
+    <version>1.7.30</version>
+</dependency>
+  	
+  	
+  	
  	<dependency>
     		<groupId>javax.servlet</groupId>
     		<artifactId>jstl</artifactId>
     		<version>1.2</version>
 	</dependency>
   	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>servlet-api</artifactId>
-  		<version>2.3</version>
-  		<scope>provided</scope>
-  	</dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>javax.servlet-api</artifactId>
+         <version>4.0.0</version>
+         <scope>provided</scope>
+      </dependency>
 	<dependency>
     		<groupId>com.fasterxml.jackson.core</groupId>
     		<artifactId>jackson-databind</artifactId>
@@ -231,7 +230,7 @@
     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>5.0.9.RELEASE</version>
+        <version>5.2.3.RELEASE</version>
     </dependency>
 	<dependency>
         <groupId>org.slf4j</groupId>

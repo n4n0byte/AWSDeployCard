@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.0/css/responsive.dataTables.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="<c:url value="/resources/main.css" />"" rel="stylesheet"></link>
 	<script  src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 	<script  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"  integrity=""  crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css">
@@ -22,8 +21,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">	
 	<link rel="stylesheet" type="text/css" href="/Card/resources/overhang.min.css" />
 	<script type="text/javascript" src="/Card/resources/overhang.min.js"></script>
-	<script src="<c:url value="/resources/particles.js" />"></script>	
-
+	<spring:url value="/resources" var="resources" />
+	<script src="${resources}/particles.js" type="text/javascript"></script>
+	<link href="${resources}/main.css" rel="stylesheet"></link>
+	
 </head>
 <body >
 	

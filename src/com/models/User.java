@@ -37,6 +37,11 @@ public class User implements Serializable {
 	private String email;
 
 	
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", username=" + username + "]";
+	}
+
 	public User() {
 		this(-1,"","","","","");
 	}
@@ -128,11 +133,6 @@ public class User implements Serializable {
 		this.password = password;
 	}
 	
-	
-	
-	
-	
-	
-	
+
 	
 }

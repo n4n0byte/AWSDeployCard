@@ -47,7 +47,7 @@
 	<div class="form-group">
 		<div class="col-sm-12">
 			<form:input path="email" placeholder="Email" class="form-control"
-				minlength="3" maxlength="10" required="required" />
+				minlength="3" maxlength="30" required="required" />
 		</div>
 		<div class="col-sm-12">
 			<form:errors class="form-label" path="email" />

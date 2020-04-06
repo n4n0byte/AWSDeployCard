@@ -1,5 +1,6 @@
 package com.models;
 
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotBlank;
@@ -26,6 +27,7 @@ public class RegistrationForm {
 	@NotEmpty
 	@NotNull
 	@Size(min = 3, max = 30, message = "Last Name Must be between 3 and 30 characters")
+	@Email
 	private String email;
 	
 	@NotBlank

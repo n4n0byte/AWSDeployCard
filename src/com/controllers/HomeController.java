@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.slf4j.ext.XLogger;
+import org.slf4j.ext.XLoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -30,6 +32,7 @@ public class HomeController {
 	
 	
 	DeckBusinessServiceInterface IDeckBusinessService;
+	XLogger logger = XLoggerFactory.getXLogger(HomeController.class);
 
 	/**
 	 * injects the DeckBusinessService
@@ -37,8 +40,9 @@ public class HomeController {
 	 */
 	@Autowired
 	public void setIDeckBusinessService(DeckBusinessServiceInterface iDeckBusinessService) {
-		
+		logger.entry();
 		IDeckBusinessService = iDeckBusinessService;
+		logger.exit();
 	}
 	
 	/**
@@ -49,8 +53,9 @@ public class HomeController {
 	 */
 	@GetMapping("/home")
 	public String home(ModelMap modelMap, HttpServletRequest request) {
+		logger.entry();
 		User user = (User)request.getSession().getAttribute("user");
-		
+		logger.info(user.toString());
 		List<Deck> decks = IDeckBusinessService.findAllDecksByUserId(user.getId());
 		System.out.println(user);
 		for (Deck c : decks) {
@@ -58,6 +63,7 @@ public class HomeController {
 		}
 		
 		modelMap.addAttribute("decks", decks);
+		logger.exit();
 		return "home";
 	}
 	
@@ -73,12 +79,14 @@ public class HomeController {
 	 */
 	@GetMapping("/newCard/{deckTitle}")
 	public ModelAndView addNewCard(@PathVariable("deckTitle") String title, Card card, ModelMap map, RedirectAttributes attrs) {
-
+		logger.entry();
 		System.out.println("DECK NAME: " + title);
+		logger.info("DECK NAME: " + title);
 		ModelAndView res = new ModelAndView();
 		
 		res.addObject("cardWithDeckTitle", new CardWithDeckTitle(card, title));
 		res.setViewName("newCard");
+		logger.exit();
 		return res;
 	}
 	
@@ -91,8 +99,11 @@ public class HomeController {
 	 */
 	@GetMapping("newDeck")
 	public String addNewDeck (Deck deck,ModelMap map) {
+		logger.entry();
 		map.addAttribute("deck", new Deck());
 		map.addAttribute("message", "Added Deck");
+		logger.info("Showing Deck Page");
+		logger.exit();
 		return "newDeck";
 	}
 		

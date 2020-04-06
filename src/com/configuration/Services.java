@@ -25,7 +25,14 @@ import com.services.interfaces.GenericDAOInterface;
 public class Services {
 	
 
+	////////////////////////////////////////
+	//// Data Services
+	///////////////////////////////////////
 	
+	/**
+	 * user DAO injection config
+	 * @return UserDAO
+	 */
 	@Bean
 	@Primary
 	public  GenericDAOInterface<User> userDAOService() { 
@@ -34,18 +41,24 @@ public class Services {
 		return userDAO;
 	}
 	
-		
+	/**
+	 * card DAO injection config
+	 * @return CardDAO
+	 */
 	@Bean
 	@Primary
 	public  GenericDAOInterface<Card> cardDAOService() { 
-		GenericDAOInterface<Card> cardDAO = new CardDAO();
 		
+		GenericDAOInterface<Card> cardDAO = new CardDAO();
 		return cardDAO;
 	}
 	
 	
 	
-	
+	/** 
+	 * Deck DAO injection config
+	 * @return DeckDAO
+	 */
 	@Bean
 	@Primary
 	public GenericDAOInterface<Deck> deckDAOService() { 
@@ -54,12 +67,25 @@ public class Services {
 		return deckDAO;
 	}
 	
+	
+	////////////////////////////////////////
+	//// Business Services
+	///////////////////////////////////////
+	
+	/**
+	 * Credentials Business Service injection config
+	 * @return CredentialsBusinessService
+	 */
 	@Bean
 	@Primary
 	public CredentialsBusinessServiceInterface credentialsBusinessServiceInterface() {
 		return new CredentialsBusinessService();
 	}
 	
+	/**
+	 * Deck Business Service injection config
+	 * @return DeckBusinessService
+	 */
 	@Bean
 	@Primary
 	public DeckBusinessServiceInterface businessServiceInterface() {
