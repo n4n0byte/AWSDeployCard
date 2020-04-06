@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - Card-0.0.1-SNAPSHOT.war
-    - .ebextensions/**/*
