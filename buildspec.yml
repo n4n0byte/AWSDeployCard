@@ -8,6 +8,7 @@ phases:
     commands:
       - mvn package
       - mv target/Card-0.0.1-SNAPSHOT.war Card-0.0.1-SNAPSHOT.war
-  artifacts:
+artifacts:
     files: '**/*'
     base-directory: target/Card-0.0.1-SNAPSHOT
+
