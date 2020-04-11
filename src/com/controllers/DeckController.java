@@ -157,6 +157,7 @@ public class DeckController {
 	 */
 	@PostMapping("updateResponse")
 	public String updateResponse(@ModelAttribute("Deck")Deck deck, ModelMap modelMap, BindingResult result, HttpServletRequest req) {
+		System.out.println("hi");
 		logger.entry();
 		//validate only title and description
 		if (result.hasErrors()) {
