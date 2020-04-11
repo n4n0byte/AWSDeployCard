@@ -37,6 +37,7 @@ public class UserDAO implements GenericDAOInterface<User> {
 	public void setDataSource(DataSource dataSource) {
 		logger.entry();
 		System.out.println("INJECTING CARD DAO~!");
+		logger.info("INJECTING CARD DAO~!");
 		this.dataSource = dataSource;
 		this.jdbcTemplateObject = new JdbcTemplate(this.dataSource);
 	}

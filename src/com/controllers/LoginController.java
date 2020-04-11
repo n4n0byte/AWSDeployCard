@@ -47,9 +47,8 @@ public class LoginController {
 		
 		logger.entry();
 		logger.exit();
-		throw new NotImplementedException();
 
-//		return new ModelAndView("login", "user", new User());
+		return new ModelAndView("login", "user", new User());
 	}
 	
 	/**

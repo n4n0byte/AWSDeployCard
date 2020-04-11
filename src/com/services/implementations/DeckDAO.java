@@ -55,6 +55,7 @@ public class DeckDAO implements GenericDAOInterface<Deck> {
 	public void setCardDAO(GenericDAOInterface<Card> cardDAO) {
 		logger.entry();
 		System.out.println("INJECTING CARD DAO~!");
+		logger.info("INJECTING CARD DAO~!");
 		this.cardDAO = cardDAO;
 		logger.exit();
 	}
