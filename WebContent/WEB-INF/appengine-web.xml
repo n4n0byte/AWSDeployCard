@@ -3,4 +3,7 @@
     <threadsafe>true</threadsafe>
     <runtime>java8</runtime>
     <sessions-enabled>true</sessions-enabled>
+    <system-properties>
+        <property name="app.log" value="/tmp/Card/logs/Card.log"/>
+    </system-properties>
 </appengine-web-app>
