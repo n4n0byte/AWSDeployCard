@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.exceptions.NotImplementedException;
 import com.models.User;
 import com.services.interfaces.CredentialsBusinessServiceInterface;
 
@@ -46,7 +47,9 @@ public class LoginController {
 		
 		logger.entry();
 		logger.exit();
-		return new ModelAndView("login", "user", new User());
+		throw new NotImplementedException();
+
+//		return new ModelAndView("login", "user", new User());
 	}
 	
 	/**
